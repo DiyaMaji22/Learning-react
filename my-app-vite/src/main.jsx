@@ -7,6 +7,7 @@ import DashBoardComponent from './dashboard.jsx'
 import Table from './table.jsx'
 import JsxBasics from './basic.jsx'
 import LaptopFunction from './Laptopfunction.jsx'
+import Student from './StudentFunction.jsx'
 
 
 // function Laptop(){
@@ -43,18 +44,23 @@ import LaptopFunction from './Laptopfunction.jsx'
 // }
 
 
-
-
+let modelno=123;
+let config={
+  ram:16
+}
+let course="CSE";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App />
     {list()} */}
     <DashBoardComponent/>
-
-    <LaptopFunction brand="hp" colour="silver"/>
+      
+    <LaptopFunction brand="hp" colour="silver" year={2025} model={modelno} config={config}/>
     {/* <Table/>
     <JsxBasics/>
      
     <Box/> */}
+
+    <Student name="MIku" age={20} dob="18-05-2007" course={course}/>
   </StrictMode>,
 )
