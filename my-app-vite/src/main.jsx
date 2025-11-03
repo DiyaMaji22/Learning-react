@@ -2,14 +2,18 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import list from './newlist.jsx'
-import DashBoardComponent from './dashboard.jsx'
-import Table from './table.jsx'
-import JsxBasics from './basic.jsx'
-import LaptopFunction from './Laptopfunction.jsx'
-import Student from './StudentFunction.jsx'
-
-
+import list from '../miscellaneous/newlist.jsx'
+import DashBoardComponent from '../miscellaneous/dashboard.jsx'
+import Table from '../miscellaneous/table.jsx'
+import JsxBasics from '../miscellaneous/basic.jsx'
+import LaptopFunction from '../miscellaneous/Laptopfunction.jsx'
+import Student from '../miscellaneous/StudentFunction.jsx'
+import CSSinline from '../miscellaneous/cssinline.jsx'
+import CSSExternal from '../miscellaneous/cssExternal.jsx'
+import Food from '../miscellaneous/food.jsx'
+import Heading from '../miscellaneous/comp1.jsx'
+import TailwindExample from '../miscellaneous/tailwind.jsx'
+import Card from '../activity1/card.jsx'
 // function Laptop(){
 
 //     return(
@@ -53,14 +57,24 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App />
     {list()} */}
-    <DashBoardComponent/>
+    {/* <DashBoardComponent/>
       
-    <LaptopFunction brand="hp" colour="silver" year={2025} model={modelno} config={config}/>
+    <LaptopFunction brand="hp" colour="silver" year={2025} model={modelno} config={config}/> */}
     {/* <Table/>
     <JsxBasics/>
      
     <Box/> */}
 
-    <Student name="MIku" age={20} dob="18-05-2007" course={course}/>
+    {/* <Student name="MIku" age={20} dob="18-05-2007" course={course}/>
+    <CSSinline/>
+
+    <CSSExternal/> */}
+    {/* <Heading/> */}
+
+    {/* <Food name="Pizza" type="Italian"/>
+    <Food name="Noodles" type="Chinese"/>
+    <Food name="Pav Bhaji" type="Indian" /> */}
+    {/* <TailwindExample/> */}
+    <Card/>
   </StrictMode>,
 )
