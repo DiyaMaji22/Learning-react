@@ -14,6 +14,8 @@ import Food from '../miscellaneous/food.jsx'
 import Heading from '../miscellaneous/comp1.jsx'
 import TailwindExample from '../miscellaneous/tailwind.jsx'
 import Card from '../activity1/card.jsx'
+import EvenHandling from '../miscellaneous/eventhandling.jsx'
+import Counter from '../activity2/counter.jsx'
 // function Laptop(){
 
 //     return(
@@ -75,6 +77,8 @@ createRoot(document.getElementById('root')).render(
     <Food name="Noodles" type="Chinese"/>
     <Food name="Pav Bhaji" type="Indian" /> */}
     {/* <TailwindExample/> */}
-    <Card/>
+    {/* <Card/> */}
+    {/* <EvenHandling/> */}
+    <Counter/>
   </StrictMode>,
 )
