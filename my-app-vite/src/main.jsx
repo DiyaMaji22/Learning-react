@@ -16,6 +16,9 @@ import TailwindExample from '../miscellaneous/tailwind.jsx'
 import Card from '../activity1/card.jsx'
 import EvenHandling from '../miscellaneous/eventhandling.jsx'
 import Counter from '../activity2/counter.jsx'
+import UserStateExample from '../miscellaneous/useStateExample.jsx'
+import UserEffectExample from '../miscellaneous/useEffectExample.jsx'
+import Password from '../activity3/password.jsx'
 // function Laptop(){
 
 //     return(
@@ -79,6 +82,9 @@ createRoot(document.getElementById('root')).render(
     {/* <TailwindExample/> */}
     {/* <Card/> */}
     {/* <EvenHandling/> */}
-    <Counter/>
+    {/* <Counter/> */}
+    {/* <UserStateExample/>
+    <UserEffectExample/> */}
+    <Password/>
   </StrictMode>,
 )
