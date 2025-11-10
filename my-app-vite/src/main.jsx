@@ -19,6 +19,7 @@ import Counter from '../activity2/counter.jsx'
 import UserStateExample from '../miscellaneous/useStateExample.jsx'
 import UserEffectExample from '../miscellaneous/useEffectExample.jsx'
 import Password from '../activity3/password.jsx'
+import WithoutUserContext from '../usecontext/withoutusecontext.jsx'  
 // function Laptop(){
 
 //     return(
@@ -86,5 +87,6 @@ createRoot(document.getElementById('root')).render(
     {/* <UserStateExample/>
     <UserEffectExample/> */}
     <Password/>
+    <WithoutUserContext/>
   </StrictMode>,
 )
