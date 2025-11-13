@@ -20,6 +20,11 @@ import UserStateExample from '../miscellaneous/useStateExample.jsx'
 import UserEffectExample from '../miscellaneous/useEffectExample.jsx'
 import Password from '../activity3/password.jsx'
 import WithoutUserContext from '../usecontext/withoutusecontext.jsx'  
+import Themeprovider from '../activity4/themeprovider.jsx'
+import ParentComp from '../useCallback/parentComp.jsx'
+import UseMemoExample from '../useMemo/useMemoexample.jsx'
+import UseReducerExample from '../useReducer/useReducerExample.jsx'
+// import ChildComp from '../useCallback/childComp.jsx'
 // function Laptop(){
 
 //     return(
@@ -61,32 +66,8 @@ let config={
 let course="CSE";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App />
-    {list()} */}
-    {/* <DashBoardComponent/>
-      
-    <LaptopFunction brand="hp" colour="silver" year={2025} model={modelno} config={config}/> */}
-    {/* <Table/>
-    <JsxBasics/>
-     
-    <Box/> */}
-
-    {/* <Student name="MIku" age={20} dob="18-05-2007" course={course}/>
-    <CSSinline/>
-
-    <CSSExternal/> */}
-    {/* <Heading/> */}
-
-    {/* <Food name="Pizza" type="Italian"/>
-    <Food name="Noodles" type="Chinese"/>
-    <Food name="Pav Bhaji" type="Indian" /> */}
-    {/* <TailwindExample/> */}
-    {/* <Card/> */}
-    {/* <EvenHandling/> */}
-    {/* <Counter/> */}
-    {/* <UserStateExample/>
-    <UserEffectExample/> */}
-    <Password/>
-    <WithoutUserContext/>
-  </StrictMode>,
+    <UseMemoExample/>
+    <ParentComp/>
+    <UseReducerExample/>
+   </StrictMode>,
 )
