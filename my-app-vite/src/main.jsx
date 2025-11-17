@@ -23,7 +23,7 @@ import WithoutUserContext from '../usecontext/withoutusecontext.jsx'
 import Themeprovider from '../activity4/themeprovider.jsx'
 import ParentComp from '../useCallback/parentComp.jsx'
 import UseMemoExample from '../useMemo/useMemoexample.jsx'
-import UseReducerExample from '../useReducer/useReducerExample.jsx'
+import UseReducerExample1 from '../useReducer/useReducerExample1.jsx'
 // import ChildComp from '../useCallback/childComp.jsx'
 // function Laptop(){
 
@@ -66,8 +66,8 @@ let config={
 let course="CSE";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UseMemoExample/>
-    <ParentComp/>
-    <UseReducerExample/>
+    {/* <UseMemoExample/>
+    <ParentComp/> */}
+    <UseReducerExample1/>
    </StrictMode>,
 )
