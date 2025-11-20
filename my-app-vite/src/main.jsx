@@ -24,6 +24,8 @@ import Themeprovider from '../activity4/themeprovider.jsx'
 import ParentComp from '../useCallback/parentComp.jsx'
 import UseMemoExample from '../useMemo/useMemoexample.jsx'
 import UseReducerExample1 from '../useReducer/useReducerExample1.jsx'
+import Toggle from '../activity5/toggle.jsx'
+import Controlledcomponent from '../miscellaneous/controlledcomponent.jsx'
 // import ChildComp from '../useCallback/childComp.jsx'
 // function Laptop(){
 
@@ -68,6 +70,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <UseMemoExample/>
     <ParentComp/> */}
-    <UseReducerExample1/>
+  <Toggle/>
+  <Controlledcomponent/>
    </StrictMode>,
 )
