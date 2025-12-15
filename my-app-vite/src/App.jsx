@@ -35,10 +35,13 @@
 // export default App
 
 import './App.css'
+import CounterUi from './ReduxPractical/CounterUi';
 function app(){
   return(
     <div>
-      <h1>React </h1>
+      <h1>
+        <CounterUi/>
+      </h1>
     </div>
   )
 }

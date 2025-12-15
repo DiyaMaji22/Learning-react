@@ -26,6 +26,12 @@ import UseMemoExample from '../useMemo/useMemoexample.jsx'
 import UseReducerExample1 from '../useReducer/useReducerExample1.jsx'
 import Toggle from '../activity5/toggle.jsx'
 import Controlledcomponent from '../miscellaneous/controlledcomponent.jsx'
+import HTTprequest from '../HttpMenthods/HTTprequest.jsx'
+import Dummyjson from '../HttpMenthods/Dummyjson.jsx'
+import HTTPReqestaxios from '../HttpMenthods/HTTPReqestaxios.jsx'
+import Dishes from '../activity7/Dishes.jsx'
+import { Provider } from 'react-redux'
+import { store } from './Store.jsx'
 // import ChildComp from '../useCallback/childComp.jsx'
 // function Laptop(){
 
@@ -67,10 +73,17 @@ let config={
 }
 let course="CSE";
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {/* <UseMemoExample/>
-    <ParentComp/> */}
-  <Toggle/>
-  <Controlledcomponent/>
-   </StrictMode>,
+  // <StrictMode>
+  //   {/* <UseMemoExample/>
+  //   <ParentComp/> */}
+  // {/* <Toggle/>
+  // <Controlledcomponent/> */}
+  // {/* <HTTPReqestaxios/> */}
+  // {/* <Dummyjson/> */}
+  // <Dishes/>
+
+  //  </StrictMode>,
+  <Provider store={store}>
+    <App/>
+  </Provider>
 )
