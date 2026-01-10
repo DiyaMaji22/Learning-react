@@ -29,9 +29,13 @@ import Controlledcomponent from '../miscellaneous/controlledcomponent.jsx'
 import HTTprequest from '../HttpMenthods/HTTprequest.jsx'
 import Dummyjson from '../HttpMenthods/Dummyjson.jsx'
 import HTTPReqestaxios from '../HttpMenthods/HTTPReqestaxios.jsx'
-import Dishes from '../activity7/Dishes.jsx'
+
 import { Provider } from 'react-redux'
 import { store } from './Store.jsx'
+import BookForm from '../activity7/bookForm.jsx'
+import CounterUi from './ReduxPractical/CounterUi.jsx'
+import { Form } from 'react-router-dom'
+import Form1 from '../activity7/formValidation.jsx'
 // import ChildComp from '../useCallback/childComp.jsx'
 // function Laptop(){
 
@@ -73,17 +77,8 @@ let config={
 }
 let course="CSE";
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-  //   {/* <UseMemoExample/>
-  //   <ParentComp/> */}
-  // {/* <Toggle/>
-  // <Controlledcomponent/> */}
-  // {/* <HTTPReqestaxios/> */}
-  // {/* <Dummyjson/> */}
-  // <Dishes/>
-
-  //  </StrictMode>,
-  <Provider store={store}>
-    <App/>
-  </Provider>
+  <StrictMode>
+    <Form1 />
+   </StrictMode>,
+ 
 )
